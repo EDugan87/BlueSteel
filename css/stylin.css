@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #FFF;
+    font-family: 'Montserrat', serif;
 }
 
 wrapper {
@@ -18,6 +19,7 @@ wrapper {
     background-repeat: repeat-x;
     margin: 0px;
     padding: 0px;
+    box-shadow: 0px 1px 3px 1px #333;
 }
 
 .navbar-blue.icon-bar {
@@ -26,12 +28,13 @@ wrapper {
 
 .navbar-blue .navbar-brand {
   color: #DDD;
-}
+}#
 
 .navbar-blue .navbar-brand:hover,
 .navbar-blue .navbar-brand:focus {
   color: #fff;
   background-color: transparent;
+     transition: 0.3s;
 }
 
 .navbar-blue .navbar-text {
@@ -46,6 +49,7 @@ wrapper {
 .navbar-blue .navbar-nav > li > a:focus {
   color: #fff;
   background-color: transparent;
+     transition: 0.3s;
 }
 
 .navbar-blue .navbar-nav > .active > a,
@@ -53,6 +57,7 @@ wrapper {
 .navbar-blue .navbar-nav > .active > a:focus {
   color: #fff;
   background-color: darkslateblue;
+    transition: 0.3s;
 }
 
 .navbar-blue .navbar-nav > .disabled > a,
@@ -73,6 +78,7 @@ wrapper {
 
 .navbar-blue .navbar-toggle .icon-bar {
   background-color: #fff;
+    transition: 0.3s;     
 }
 
 .navbar-blue .navbar-collapse,
@@ -124,6 +130,7 @@ wrapper {
 
 .navbar-blue .navbar-link:hover {
   color: #fff;
+    transition: 0.3s;
 }
 
 .navbar-blue .btn-link {
@@ -155,6 +162,15 @@ ul.dropdown-menu li a {
     color: #fff;
 }
 
+ul.dropdown-menu li a:hover {
+    background: #fff;
+    transition: 0.3s;
+}
+
 ul.dropdown-menu li a:last-child {
     border-radius: 0px;
+}
+
+#content {
+    margin-top: 35px; 
 }
